@@ -1,0 +1,760 @@
+.contact {
+  height: 480px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-top: 1px solid #33323d28;
+
+  &__title {
+    width: 35%;
+    & h2 {
+      font-family: "Ibarra Real Nova";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 42px;
+      /* identical to box height, or 105% */
+
+      letter-spacing: -0.357143px;
+
+      color: #33323d;
+    }
+  }
+  &__form {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 20px;
+    & label {
+      font-family: "Public Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 30px;
+      /* identical to box height, or 231% */
+
+      color: #33323d;
+
+      mix-blend-mode: normal;
+      opacity: 0.8;
+    }
+    & input {
+      width: 90%;
+      height: 48px;
+      background: #33323d65;
+      border: none;
+      mix-blend-mode: normal;
+      opacity: 0.1;
+      padding-left: 20px;
+      outline: none;
+      font-family: "Public Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 30px;
+      /* identical to box height, or 231% */
+
+      color: #494759;
+
+      mix-blend-mode: normal;
+      opacity: 0.6;
+      &:focus {
+        outline: 3px solid #5fb4a2;
+      }
+      &::placeholder {
+        color: #33323d;
+
+        mix-blend-mode: normal;
+        opacity: 0.4;
+      }
+    }
+    & textarea {
+      width: 90%;
+      height: 96px;
+      background: #33323d84;
+      mix-blend-mode: normal;
+      opacity: 0.1;
+      padding-left: 20px;
+      padding-top: 10px;
+      outline: none;
+      font-family: "Public Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 30px;
+      color: #33323d;
+      border: none;
+      mix-blend-mode: normal;
+      opacity: 0.6;
+      &:focus {
+        outline: 3px solid #5fb4a2;
+      }
+    }
+    &--btn{
+        width: 200px;
+        height: 48px;
+        background: #203A4C;
+
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+       font-size: 12px;
+line-height: 14px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+border: none;
+    }
+  }
+}
+@media screen and (max-width:992px) {
+    .contact {
+        height: 480px;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        border-top: 1px solid #33323d28;
+      
+        &__title {
+          width: 35%;
+          & h2 {
+            font-family: "Ibarra Real Nova";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 42px;
+            /* identical to box height, or 105% */
+      
+            letter-spacing: -0.357143px;
+      
+            color: #33323d;
+          }
+        }
+        &__form {
+          width: 60%;
+          height: 100%;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          padding-left: 20px;
+          & label {
+            font-family: "Public Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 30px;
+            /* identical to box height, or 231% */
+      
+            color: #33323d;
+      
+            mix-blend-mode: normal;
+            opacity: 0.8;
+          }
+          & input {
+            width: 90%;
+            height: 48px;
+            background: #33323d65;
+            border: none;
+            mix-blend-mode: normal;
+            opacity: 0.1;
+            padding-left: 20px;
+            outline: none;
+            font-family: "Public Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 30px;
+            /* identical to box height, or 231% */
+      
+            color: #494759;
+      
+            mix-blend-mode: normal;
+            opacity: 0.6;
+            &:focus {
+              outline: 3px solid #5fb4a2;
+            }
+            &::placeholder {
+              color: #33323d;
+      
+              mix-blend-mode: normal;
+              opacity: 0.4;
+            }
+          }
+          & textarea {
+            width: 90%;
+            height: 96px;
+            background: #33323d84;
+            mix-blend-mode: normal;
+            opacity: 0.1;
+            padding-left: 20px;
+            padding-top: 10px;
+            outline: none;
+            font-family: "Public Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 30px;
+            color: #33323d;
+            border: none;
+            mix-blend-mode: normal;
+            opacity: 0.6;
+            &:focus {
+              outline: 3px solid #5fb4a2;
+            }
+          }
+          &--btn{
+              width: 200px;
+              height: 48px;
+              background: #203A4C;
+      
+              font-family: 'Public Sans';
+              font-style: normal;
+              font-weight: 400;
+             font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      
+      color: #FFFFFF;
+      border: none;
+          }
+        }
+      }
+}
+@media screen and (max-width:768px) {
+    .contact {
+        height: 570px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 15px;
+        border-top: 1px solid #33323d28;
+      
+        &__title {
+          width: 45%;
+          height: 20%;
+          & h2 {
+            font-family: "Ibarra Real Nova";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 42px;
+            /* identical to box height, or 105% */
+      
+            letter-spacing: -0.357143px;
+      
+            color: #33323d;
+          }
+        }
+        &__form {
+          width: 90%;
+          height: 80%;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+       
+          & label {
+            font-family: "Public Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 30px;
+            /* identical to box height, or 231% */
+      
+            color: #33323d;
+      
+            mix-blend-mode: normal;
+            opacity: 0.8;
+
+          }
+          & input {
+            width: 90%;
+            height: 48px;
+            background: #33323d65;
+            border: none;
+            mix-blend-mode: normal;
+            opacity: 0.1;
+            padding-left: 20px;
+            outline: none;
+
+
+            font-family: "Public Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 30px;
+            /* identical to box height, or 231% */
+      
+            color: #494759;
+      
+            mix-blend-mode: normal;
+            opacity: 0.6;
+
+
+            &:focus {
+              outline: 3px solid #5fb4a2;
+            }
+            &::placeholder {
+              color: #33323d;
+      
+              mix-blend-mode: normal;
+              opacity: 0.4;
+            }
+          }
+          & textarea {
+            width: 90%;
+            height: 96px;
+            background: #33323d84;
+            mix-blend-mode: normal;
+            opacity: 0.1;
+            padding-left: 20px;
+            padding-top: 10px;
+            outline: none;
+
+
+
+            font-family: "Public Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 30px;
+            color: #33323d;
+            border: none;
+            mix-blend-mode: normal;
+            opacity: 0.6;
+
+
+
+            &:focus {
+              outline: 3px solid #5fb4a2;
+            }
+
+          }
+          &--btn{
+              width: 200px;
+              height: 48px;
+              background: #203A4C;
+      
+
+
+              font-family: 'Public Sans';
+              font-style: normal;
+              font-weight: 400;
+             font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      
+      color: #FFFFFF;
+      border: none;
+
+
+          }
+        }
+      }
+}
+@media screen and (max-width:576px) {
+    .contact {
+        height: 570px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 15px;
+        border-top: 1px solid #33323d28;
+      
+        &__title {
+          width: 50%;
+          height: 20%;
+          & h2 {
+            font-family: "Ibarra Real Nova";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 42px;
+            /* identical to box height, or 105% */
+      
+            letter-spacing: -0.357143px;
+      
+            color: #33323d;
+          }
+        }
+        &__form {
+          width: 90%;
+          height: 80%;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+       
+          & label {
+            font-family: "Public Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 30px;
+            /* identical to box height, or 231% */
+      
+            color: #33323d;
+      
+            mix-blend-mode: normal;
+            opacity: 0.8;
+
+          }
+          & input {
+            width: 90%;
+            height: 48px;
+            background: #33323d65;
+            border: none;
+            mix-blend-mode: normal;
+            opacity: 0.1;
+            padding-left: 20px;
+            outline: none;
+
+
+            font-family: "Public Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 30px;
+            /* identical to box height, or 231% */
+      
+            color: #494759;
+      
+            mix-blend-mode: normal;
+            opacity: 0.6;
+
+
+            &:focus {
+              outline: 3px solid #5fb4a2;
+            }
+            &::placeholder {
+              color: #33323d;
+      
+              mix-blend-mode: normal;
+              opacity: 0.4;
+            }
+          }
+          & textarea {
+            width: 90%;
+            height: 96px;
+            background: #33323d84;
+            mix-blend-mode: normal;
+            opacity: 0.1;
+            padding-left: 20px;
+            padding-top: 10px;
+            outline: none;
+
+
+
+            font-family: "Public Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 30px;
+            color: #33323d;
+            border: none;
+            mix-blend-mode: normal;
+            opacity: 0.6;
+
+
+
+            &:focus {
+              outline: 3px solid #5fb4a2;
+            }
+
+          }
+          &--btn{
+              width: 200px;
+              height: 48px;
+              background: #203A4C;
+      
+
+
+              font-family: 'Public Sans';
+              font-style: normal;
+              font-weight: 400;
+             font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      
+      color: #FFFFFF;
+      border: none;
+
+
+          }
+        }
+      }
+}
+@media screen and (max-width:480px) {
+    .contact {
+        height: 580px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 15px;
+        border-top: 1px solid #33323d28;
+      
+        &__title {
+          width: 70%;
+          height: 20%;
+          & h2 {
+            font-family: "Ibarra Real Nova";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 42px;
+            /* identical to box height, or 105% */
+      
+            letter-spacing: -0.357143px;
+      
+            color: #33323d;
+          }
+        }
+        &__form {
+          width: 95%;
+          height: 80%;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+       
+          & label {
+            font-family: "Public Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 30px;
+            /* identical to box height, or 231% */
+      
+            color: #33323d;
+      
+            mix-blend-mode: normal;
+            opacity: 0.8;
+
+          }
+          & input {
+            width: 90%;
+            height: 48px;
+            background: #33323d65;
+            border: none;
+            mix-blend-mode: normal;
+            opacity: 0.1;
+            padding-left: 20px;
+            outline: none;
+
+
+            font-family: "Public Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 30px;
+            /* identical to box height, or 231% */
+      
+            color: #494759;
+      
+            mix-blend-mode: normal;
+            opacity: 0.6;
+
+
+            &:focus {
+              outline: 3px solid #5fb4a2;
+            }
+            &::placeholder {
+              color: #33323d;
+      
+              mix-blend-mode: normal;
+              opacity: 0.4;
+            }
+          }
+          & textarea {
+            width: 90%;
+            height: 96px;
+            background: #33323d84;
+            mix-blend-mode: normal;
+            opacity: 0.1;
+            padding-left: 20px;
+            padding-top: 10px;
+            outline: none;
+
+
+
+            font-family: "Public Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 30px;
+            color: #33323d;
+            border: none;
+            mix-blend-mode: normal;
+            opacity: 0.6;
+
+
+
+            &:focus {
+              outline: 3px solid #5fb4a2;
+            }
+
+          }
+          &--btn{
+              width: 200px;
+              height: 48px;
+              background: #203A4C;
+      
+
+
+              font-family: 'Public Sans';
+              font-style: normal;
+              font-weight: 400;
+             font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      
+      color: #FFFFFF;
+      border: none;
+
+
+          }
+        }
+      }
+}
+@media screen and (max-width:375px) {
+    .contact {
+        height: 580px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 15px;
+        border-top: 1px solid #33323d28;
+      
+        &__title {
+          width: 85%;
+          height: 20%;
+          & h2 {
+            font-family: "Ibarra Real Nova";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 42px;
+            /* identical to box height, or 105% */
+      
+            letter-spacing: -0.357143px;
+      
+            color: #33323d;
+          }
+        }
+        &__form {
+          width: 95%;
+          height: 80%;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+       
+          & label {
+            font-family: "Public Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 30px;
+            /* identical to box height, or 231% */
+      
+            color: #33323d;
+      
+            mix-blend-mode: normal;
+            opacity: 0.8;
+
+          }
+          & input {
+            width: 90%;
+            height: 48px;
+            background: #33323d65;
+            border: none;
+            mix-blend-mode: normal;
+            opacity: 0.1;
+            padding-left: 20px;
+            outline: none;
+
+
+            font-family: "Public Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 30px;
+            /* identical to box height, or 231% */
+      
+            color: #494759;
+      
+            mix-blend-mode: normal;
+            opacity: 0.6;
+
+
+            &:focus {
+              outline: 3px solid #5fb4a2;
+            }
+            &::placeholder {
+              color: #33323d;
+      
+              mix-blend-mode: normal;
+              opacity: 0.4;
+            }
+          }
+          & textarea {
+            width: 90%;
+            height: 96px;
+            background: #33323d84;
+            mix-blend-mode: normal;
+            opacity: 0.1;
+            padding-left: 20px;
+            padding-top: 10px;
+            outline: none;
+
+
+
+            font-family: "Public Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 30px;
+            color: #33323d;
+            border: none;
+            mix-blend-mode: normal;
+            opacity: 0.6;
+
+
+
+            &:focus {
+              outline: 3px solid #5fb4a2;
+            }
+
+          }
+          &--btn{
+              width: 200px;
+              height: 48px;
+              background: #203A4C;
+      
+
+
+              font-family: 'Public Sans';
+              font-style: normal;
+              font-weight: 400;
+             font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      
+      color: #FFFFFF;
+      border: none;
+
+
+          }
+        }
+      }
+}

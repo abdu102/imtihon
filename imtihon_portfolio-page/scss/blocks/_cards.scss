@@ -1,0 +1,503 @@
+.cards{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    &__card{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        &:nth-child(2){
+            flex-direction: row-reverse;
+        }
+        &:nth-child(4){
+            flex-direction: row-reverse;
+        }
+        &--text{
+            
+            width: 40%;
+            height: 350px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+
+            & h2 {
+                font-family: 'Ibarra Real Nova';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 42px;
+                /* identical to box height, or 105% */
+                
+                letter-spacing: -0.357143px;
+                
+                color: #33323D;
+            }
+            & p{
+                width: 70%;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 30px;
+                /* or 188% */
+                
+                
+                color: #33323D;
+                
+                mix-blend-mode: normal;
+                opacity: 0.8;
+            }
+            & button{
+                width: 175px;
+                height: 48px;
+                border: 1px solid rgb(0, 0, 0);
+                transition: all 0.3s ease;
+
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                
+                color: #33323D;
+                
+                &:hover{
+                    background: #33323D;
+                    color: #ffff;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:992px) {
+    .cards{
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+        &__card{
+            width: 100%;
+            height: 25%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            margin: 20px 0;
+            &:nth-child(2){
+                flex-direction: row-reverse;
+            }
+            &:nth-child(4){
+                flex-direction: row-reverse;
+            }
+            & img{
+                width: 45%;
+                height: 90%;
+            }
+            &--text{
+                
+                width: 52%;
+                height: 300px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+    
+                & h2 {
+                    font-family: 'Ibarra Real Nova';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 42px;
+                    /* identical to box height, or 105% */
+                    
+                    letter-spacing: -0.357143px;
+                    
+                    color: #33323D;
+                }
+                & p{
+                    width:100%;
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 28px;
+                    /* or 188% */
+                    
+                    
+                    color: #33323D;
+                    
+                    mix-blend-mode: normal;
+                    opacity: 0.8;
+                }
+                & button{
+                    width: 175px;
+                    height: 48px;
+                    border: 1px solid rgb(0, 0, 0);
+                    transition: all 0.3s ease;
+    
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    
+                    color: #33323D;
+                    
+                    &:hover{
+                        background: #33323D;
+                        color: #ffff;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:768px) {
+    .cards{
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+        &__card{
+            width: 100%;
+            height: 25%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            margin: 20px 0;
+            &:nth-child(2){
+                flex-direction: row-reverse;
+            }
+            &:nth-child(4){
+                flex-direction: row-reverse;
+            }
+            & img{
+                width: 45%;
+                height: 90%;
+            }
+            &--text{
+                
+                width: 52%;
+                height: 300px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+    
+                & h2 {
+                    font-family: 'Ibarra Real Nova';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 42px;
+                    /* identical to box height, or 105% */
+                    
+                    letter-spacing: -0.357143px;
+                    
+                    color: #33323D;
+                }
+                & p{
+                    width:100%;
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 28px;
+                    /* or 188% */
+                    
+                    
+                    color: #33323D;
+                    
+                    mix-blend-mode: normal;
+                    opacity: 0.8;
+                }
+                & button{
+                    width: 175px;
+                    height: 48px;
+                    border: 1px solid rgb(0, 0, 0);
+                    transition: all 0.3s ease;
+    
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    
+                    color: #33323D;
+                    
+                    &:hover{
+                        background: #33323D;
+                        color: #ffff;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:576px) {
+    .cards{
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+        &__card{
+            width: 100%;
+            height: 25%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            margin: 20px 0;
+            &:nth-child(2){
+                flex-direction: column;
+            }
+            &:nth-child(4){
+                flex-direction: column;
+            }
+            & img{
+                width: 80%;
+                height: 50%;
+            }
+            &--text{
+                width: 92%;
+                height: 300px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+    
+                & h2 {
+                    font-family: 'Ibarra Real Nova';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 42px;
+                    /* identical to box height, or 105% */
+                    
+                    letter-spacing: -0.357143px;
+                    
+                    color: #33323D;
+                }
+                & p{
+                    width: 70%;
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 28px;
+                    /* or 188% */
+                    
+                    
+                    color: #33323D;
+                    
+                    mix-blend-mode: normal;
+                    opacity: 0.8;
+                }
+                & button{
+                    width: 175px;
+                    height: 48px;
+                    border: 1px solid rgb(0, 0, 0);
+                    transition: all 0.3s ease;
+    
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    
+                    color: #33323D;
+                    
+                    &:hover{
+                        background: #33323D;
+                        color: #ffff;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:480px) {
+    .cards{
+        height: 3000px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+        &__card{
+            width: 100%;
+            height: 25%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            margin: 20px 0;
+            &:nth-child(2){
+                flex-direction: column;
+            }
+            &:nth-child(4){
+                flex-direction: column;
+            }
+            & img{
+                width: 80%;
+                height: 50%;
+            }
+            &--text{
+                width: 97%;
+                height: 300px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+    
+                & h2 {
+                    font-family: 'Ibarra Real Nova';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 42px;
+                    /* identical to box height, or 105% */
+                    
+                    letter-spacing: -0.357143px;
+                    
+                    color: #33323D;
+                }
+                & p{
+                    width: 77%;
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 28px;
+                    /* or 188% */
+                    
+                    
+                    color: #33323D;
+                    
+                    mix-blend-mode: normal;
+                    opacity: 0.8;
+                }
+                & button{
+                    width: 175px;
+                    height: 48px;
+                    border: 1px solid rgb(0, 0, 0);
+                    transition: all 0.3s ease;
+    
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    
+                    color: #33323D;
+                    
+                    &:hover{
+                        background: #33323D;
+                        color: #ffff;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:375px) {
+    .cards{
+        height: 3000px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+        &__card{
+            width: 100%;
+            height: 25%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            margin: 20px 0;
+            &:nth-child(2){
+                flex-direction: column;
+            }
+            &:nth-child(4){
+                flex-direction: column;
+            }
+            & img{
+                width: 90%;
+                height: 50%;
+            }
+            &--text{
+                width: 97%;
+                height: 320px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+    
+                & h2 {
+                    font-family: 'Ibarra Real Nova';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 42px;
+                    /* identical to box height, or 105% */
+                    
+                    letter-spacing: -0.357143px;
+                    
+                    color: #33323D;
+                }
+                & p{
+                    width: 88%;
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 28px;
+                    /* or 188% */
+                    
+                    
+                    color: #33323D;
+                    
+                    mix-blend-mode: normal;
+                    opacity: 0.8;
+                }
+                & button{
+                    width: 175px;
+                    height: 48px;
+                    border: 1px solid rgb(0, 0, 0);
+                    transition: all 0.3s ease;
+    
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    
+                    color: #33323D;
+                    
+                    &:hover{
+                        background: #33323D;
+                        color: #ffff;
+                    }
+                }
+            }
+        }
+    }
+}

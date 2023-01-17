@@ -1,0 +1,481 @@
+.about{
+    height: 680px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__picture {
+        width: 40%;
+        height: 85%;
+        & img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__info{
+        width: 45%;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        & h2{
+            font-family: 'Ibarra Real Nova';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 42px;
+            /* identical to box height, or 105% */
+            
+            letter-spacing: -0.357143px;
+            
+            color: #33323D;
+        }
+        & p{
+            width: 62%;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            /* or 188% */
+            
+            
+            color: #33323D;
+            
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+        & button{
+            width: 202px;
+            height: 48px;
+            border: 1px solid #33323D;
+            transition: all 0.3s ease;
+            &:hover{
+                background: #33323D;
+                color: #ffffff;
+            }
+        }
+    }
+}
+@media screen and (max-width:1200px) {
+    .about{
+        height: 680px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__picture {
+            width: 45%;
+            height: 90%;
+            & img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &__info{
+            width: 48%;
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            & h2{
+                font-family: 'Ibarra Real Nova';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 42px;
+                /* identical to box height, or 105% */
+                
+                letter-spacing: -0.357143px;
+                
+                color: #33323D;
+            }
+            & p{
+                width: 72%;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 30px;
+                /* or 188% */
+                
+                
+                color: #33323D;
+                
+                mix-blend-mode: normal;
+                opacity: 0.8;
+            }
+            & button{
+                width: 202px;
+                height: 48px;
+                border: 1px solid #33323D;
+                transition: all 0.3s ease;
+                &:hover{
+                    background: #33323D;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:992px) {
+    .about{
+        height: 680px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__picture {
+            width: 40%;
+            height: 85%;
+            & img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &__info{
+            width: 50%;
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            & h2{
+                font-family: 'Ibarra Real Nova';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 42px;
+                /* identical to box height, or 105% */
+                
+                letter-spacing: -0.357143px;
+                
+                color: #33323D;
+            }
+            & p{
+                width: 83%;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 30px;
+                /* or 188% */
+                
+                
+                color: #33323D;
+                
+                mix-blend-mode: normal;
+                opacity: 0.8;
+            }
+            & button{
+                width: 202px;
+                height: 48px;
+                border: 1px solid #33323D;
+                transition: all 0.3s ease;
+                &:hover{
+                    background: #33323D;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:768px) {
+    .about{
+        height: 680px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__picture {
+            width: 37%;
+            height: 85%;
+            & img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &__info{
+            width: 50%;
+            height: 75%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            & h2{
+                font-family: 'Ibarra Real Nova';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 42px;
+                /* identical to box height, or 105% */
+                
+                letter-spacing: -0.357143px;
+                
+                color: #33323D;
+            }
+            & p{
+                width: 90%;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 30px;
+                /* or 188% */
+                
+                
+                color: #33323D;
+                
+                mix-blend-mode: normal;
+                opacity: 0.8;
+            }
+            & button{
+                width: 202px;
+                height: 48px;
+                border: 1px solid #33323D;
+                transition: all 0.3s ease;
+                &:hover{
+                    background: #33323D;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:680px) {
+    .about{
+        height: 680px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__picture {
+            width: 37%;
+            height: 85%;
+            & img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &__info{
+            width: 50%;
+            height: 75%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            & h2{
+                font-family: 'Ibarra Real Nova';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 42px;
+                /* identical to box height, or 105% */
+                
+                letter-spacing: -0.357143px;
+                
+                color: #33323D;
+            }
+            & p{
+                width: 95%;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 23px;
+                /* or 188% */
+                
+                
+                color: #33323D;
+                
+                mix-blend-mode: normal;
+                opacity: 0.8;
+            }
+            & button{
+                width: 202px;
+                height: 48px;
+                border: 1px solid #33323D;
+                transition: all 0.3s ease;
+                &:hover{
+                    background: #33323D;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:576px) {
+    .about{
+        height: 800px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        &__picture {
+            width: 60%;
+            height: 45%;
+            & img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &__info{
+            width: 90%;
+            height: 45%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            & h2{
+                font-family: 'Ibarra Real Nova';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 42px;
+                /* identical to box height, or 105% */
+                
+                letter-spacing: -0.357143px;
+                
+                color: #33323D;
+            }
+            & p{
+                width: 85%;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 23px;
+                /* or 188% */
+                
+                
+                color: #33323D;
+                
+                mix-blend-mode: normal;
+                opacity: 0.8;
+            }
+            & button{
+                width: 202px;
+                height: 48px;
+                border: 1px solid #33323D;
+                transition: all 0.3s ease;
+                &:hover{
+                    background: #33323D;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:480px) {
+    .about{
+        height: 900px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        &__picture {
+            width: 73%;
+            height: 33%;
+            & img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &__info{
+            width: 90%;
+            height: 62%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            & h2{
+                font-family: 'Ibarra Real Nova';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 42px;
+                /* identical to box height, or 105% */
+                
+                letter-spacing: -0.357143px;
+                
+                color: #33323D;
+            }
+            & p{
+                width: 92%;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+line-height: 30px;
+                /* or 188% */
+                
+                
+                color: #33323D;
+                
+                mix-blend-mode: normal;
+                opacity: 0.8;
+            }
+            & button{
+                width: 202px;
+                height: 48px;
+                border: 1px solid #33323D;
+                transition: all 0.3s ease;
+                &:hover{
+                    background: #33323D;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:375px) {
+    .about{
+        height: 930px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        &__picture {
+            width: 60%;
+            height: 30%;
+            & img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &__info{
+            width: 90%;
+            height: 65%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            & h2{
+                font-family: 'Ibarra Real Nova';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 42px;
+                /* identical to box height, or 105% */
+                
+                letter-spacing: -0.357143px;
+                
+                color: #33323D;
+            }
+            & p{
+                width: 95%;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+line-height: 30px;
+                /* or 188% */
+                
+                
+                color: #33323D;
+                
+                mix-blend-mode: normal;
+                opacity: 0.8;
+            }
+            & button{
+                width: 202px;
+                height: 48px;
+                border: 1px solid #33323D;
+                transition: all 0.3s ease;
+                &:hover{
+                    background: #33323D;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
